@@ -18,12 +18,14 @@ body{
 header{
     width: 1140px;
     background-color: #FFF8F3;
+    margin: 0 auto;
 }
 
 .header-logo-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 100px;
 }
 
 /*======== header-logo ===============*/
@@ -52,7 +54,7 @@ nav ul{
 
 nav ul li{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 nav li a{
@@ -72,4 +74,84 @@ nav li button{
 
 nav li button a{
     color: white;
+}
+
+nav ul li a:hover{
+    color: green;
+}
+
+/*===================== header-body ==============*/
+
+.header-body{
+    display: flex;
+    padding: 20px 0px 0px 100px;
+}
+
+.header-body-content{
+    padding: 100px 0px 0px 0px;
+}
+
+.header-body-content h3, h1, p{
+    margin-bottom: 15px;
+}
+
+.header-body-content h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.header-body-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+
+.header-body-content h1{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.header-body-content button{
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 10px 15px;
+}
+
+.btn-download{
+    border: none;
+    border-radius: 10px;
+    background-color: #FD6E0A;
+}
+
+.btn-download a{
+    color: white;
+}
+
+.header-body-content button a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-body-content button a:hover{
+    color: green;
+}
+
+.btn-contact{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #FD6E0A;
+    background-color: white;
+}
+
+.btn-contact a{
+    color: #FD6E0A;
+}
+
+.header-body-image img{
+    width: 584px;
+    height: 676px;
 }
